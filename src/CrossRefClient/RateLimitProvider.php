@@ -15,7 +15,7 @@ use Composer\InstalledVersions;
 use Composer\Semver\VersionParser;
 use Psr\Http\Message\RequestInterface;
 
-if (InstalledVersions::satisfies(new VersionParser(), 'rtheunissen/guzzle-rate-limiter', '^2.0')) {
+if (InstalledVersions::satisfies(new VersionParser(), 'rtheunissen/guzzle-rate-limiter', '^2.0 || ^3.0')) {
     /**
      * @see https://github.com/CrossRef/rest-api-doc#rate-limits
      */
